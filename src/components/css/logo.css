@@ -1,0 +1,14 @@
+#logo-image {
+    height: 80px;
+    width: auto;
+}
+
+#logo-image-with-name {
+    
+}
+
+.logo-image-holder {
+    width: 100px;
+    height: 100px;
+    float: left;
+}
