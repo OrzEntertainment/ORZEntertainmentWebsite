@@ -4,3 +4,8 @@ html{
 .logo-link{
   text-decoration: none;
 }
+#navbar{
+  width: auto;
+  height: 6em;
+  color: white;
+}
