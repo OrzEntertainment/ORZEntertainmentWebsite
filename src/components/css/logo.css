@@ -1,0 +1,26 @@
+
+#logo-image-with-name {
+    width: auto;
+    height: auto;
+    display: flex;
+    font-size: auto;
+    color: white;
+}
+
+#MainTitle {
+    padding: 0%;
+}
+
+#SubTitle {
+    padding: 0%;
+}
+#logo-image {
+    height: 1em;
+}
+
+Link{
+    text-decoration: none;
+}
+.logo-name-holder {
+    font-size: 0.4em;
+}

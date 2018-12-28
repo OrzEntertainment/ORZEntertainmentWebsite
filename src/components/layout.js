@@ -1,12 +1,10 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import { StaticQuery, graphql } from 'gatsby'
+import React from 'react';
+import PropTypes from 'prop-types';
+import { StaticQuery, graphql } from 'gatsby';
+import Header from './header';
+import './css/layout.css';
 
-import Header from './header'
-import './layout.css'
-import logo from ".././images/orz-logo.png"
 
-console.log(logo);
 const Layout = ({ children }) => (
 
   <StaticQuery
@@ -21,15 +19,8 @@ const Layout = ({ children }) => (
     `}
     render={(data) => (
       <>
-        <Header logo={logo} siteTitle={data.site.siteMetadata.title} />
-        <div
-          style={{
-            margin: `0 auto`,
-            maxWidth: 960,
-            padding: `0px 1.0875rem 1.45rem`,
-            paddingTop: 0,
-          }}
-        >
+        <Header siteTitle={data.site.siteMetadata.title}  />
+        <div id="main-content">
           {children}
         </div>
       </>
