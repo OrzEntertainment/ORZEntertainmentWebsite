@@ -4,7 +4,11 @@ import React from 'react';
 import Logo from './logo';
 
 const Header = ({ siteTitle }) => (
-  <div id="navbar">
+  <div id="navbar" style={{
+    position: `fixed`,
+    top: `0`,
+    width: `100%`,
+  }}>
     <h1>
       <Link 
         to="/"
@@ -18,11 +22,21 @@ const Header = ({ siteTitle }) => (
         style={{
           textDecoration: `none`,
           float: `right`,
-          color: `white`,
-          fontSize: `1em`
+          fontSize: `1em`,
+          paddingRight: `2em`
         }}
       >
         About
+      </Link>
+      <Link to="/about"
+        style={{
+          textDecoration: `none`,
+          float: `right`,
+          fontSize: `1em`,
+          paddingRight: `1em`
+        }}
+      >
+        Projects
       </Link>
     </h1>
   </div>
