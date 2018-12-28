@@ -4,8 +4,21 @@ html{
 .logo-link{
   text-decoration: none;
 }
+body {
+  margin: 0;
+  padding-top: 3em;
+}
 #navbar{
-  width: auto;
-  height: 6em;
-  color: white;
+  overflow: hidden;
+  background-color: rgb(23, 58, 56);
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+#navbar a:hover {
+  transition: color 0.3s ease;
+  color: lightskyblue;
+}
+a{
+  color:white;
 }
