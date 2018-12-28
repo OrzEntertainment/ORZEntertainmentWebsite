@@ -6,3 +6,16 @@
 <h1 align="center">
   ORZ Entertainment's landing page
 </h1>
+
+## 🚀 Quick Start
+1. ##### Clone the repository
+``` bash
+git clone https://github.com/OrzEntertainment/ORZEntertainmentWebsite.git
+```
+2. ##### Start developing
+``` bash
+cd ORZEntertainmentWebsite/
+gatsby develop
+```
+3. ##### Open the source and start editing
+Your site is now running at ```http://localhost:8000!```
