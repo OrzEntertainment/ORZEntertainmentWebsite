@@ -1,10 +1,12 @@
 
 #logo-image-with-name {
     width: auto;
-    height: auto;
+    height: 1em;
     display: flex;
     font-size: auto;
-    color: white;
+    padding-top: 0%;
+    margin-left: 5%;
+    margin-top: 0%;
 }
 
 #MainTitle {
@@ -16,11 +18,14 @@
 }
 #logo-image {
     height: 1em;
+    margin: 0 auto;
 }
-
-Link{
-    text-decoration: none;
+#logo-name-holder {
+    font-size: 0.45em;
+    padding-left: 10%;
+    margin: 0 auto;
 }
-.logo-name-holder {
-    font-size: 0.4em;
+#logo-image-with-name:hover{
+    transition: color 0.3s ease;
+    color: lightskyblue;
 }

@@ -1,5 +1,5 @@
 html{
-  background-color: gainsboro;
+  background-color: rgba(238, 238, 238, 0.87);
 }
 .logo-link{
   text-decoration: none;
@@ -19,6 +19,12 @@ body {
   transition: color 0.3s ease;
   color: lightskyblue;
 }
+
+/* Linked are by default purple or blue, so we need to make them white to stand out */
 a{
-  color:white;
+  color: white;
+}
+
+h1{
+  text-align: center;
 }

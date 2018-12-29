@@ -5,9 +5,7 @@ import Logo from './logo';
 
 const Header = ({ siteTitle }) => (
   <div id="navbar" style={{
-    position: `fixed`,
-    top: `0`,
-    width: `100%`,
+    width: `100%`
   }}>
     <h1>
       <Link 
@@ -18,7 +16,7 @@ const Header = ({ siteTitle }) => (
       }}>
         <Logo siteTitle={siteTitle}/>
       </Link>
-      <Link to="/about"
+      <Link id = "AboutLink" to="/about"
         style={{
           textDecoration: `none`,
           float: `right`,
@@ -28,7 +26,7 @@ const Header = ({ siteTitle }) => (
       >
         About
       </Link>
-      <Link to="/about"
+      <Link id = "ProjectsLink" to="/projects"
         style={{
           textDecoration: `none`,
           float: `right`,

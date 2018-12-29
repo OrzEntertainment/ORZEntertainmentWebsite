@@ -14,10 +14,10 @@ const Logo = ({siteTitle}) =>{
                     <img id="logo-image" src={logo}></img>
                 </span>
             </span>
-            <span className="logo-name-holder">
+            <span id="logo-name-holder">
                 <strong id="MainTitle">{siteTitleMain}</strong>
                 <br></br>
-                {siteTitleChild}
+                <strong id="SubTitle">{siteTitleChild}</strong>
             </span>
         </span>
     )
