@@ -18,4 +18,4 @@ cd ORZEntertainmentWebsite/
 gatsby develop
 ```
 3. ##### Open the source and start editing
-Your site is now running at ```http://localhost:8000!```
+Your site is now running at ```http://localhost:8000```!
