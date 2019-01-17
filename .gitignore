@@ -70,3 +70,7 @@ yarn-error.log
 
 #vscode configurations
 .vscode
+
+site/node_modules
+site/public
+site/.cache
