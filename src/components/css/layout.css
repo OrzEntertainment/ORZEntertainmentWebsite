@@ -1,5 +1,5 @@
 html{
-  background-color: rgba(238, 238, 238, 0.87);
+  background-color: white;
 }
 .logo-link{
   text-decoration: none;
@@ -10,14 +10,14 @@ body {
 }
 #navbar{
   overflow: hidden;
-  background-color: rgb(245, 220, 0);
+  background-color: #0db7ed;
   position: fixed;
   top: 0;
   width: 100%;
 }
 #navbar a:hover {
   transition: color 0.3s ease;
-  color: lightskyblue;
+  color: rgb(68, 0, 255);
 }
 
 /* Linked are by default purple or blue, so we need to make them white to stand out */
