@@ -27,5 +27,5 @@
 }
 #logo-image-with-name:hover{
     transition: color 0.3s ease;
-    color: rgb(68, 0, 255);
+    color: #0db7ed
 }

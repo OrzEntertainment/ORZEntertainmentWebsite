@@ -10,14 +10,14 @@ body {
 }
 #navbar{
   overflow: hidden;
-  background-color: #0db7ed;
+  background-color: black;
   position: fixed;
   top: 0;
   width: 100%;
 }
 #navbar a:hover {
   transition: color 0.3s ease;
-  color: rgb(68, 0, 255);
+  color: #0db7ed
 }
 
 /* Linked are by default purple or blue, so we need to make them white to stand out */
