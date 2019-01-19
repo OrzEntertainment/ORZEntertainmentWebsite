@@ -6,8 +6,8 @@ import SEO from '../components/seo'
 const IndexPage = () => (
   <Layout>
     <SEO title="ORZ" keywords={[`gatsby`, `application`, `react`]} />
-    <h1>Welcome to ORZ Entertainment</h1>
-    <Link to="/page-2/">Go to page 2</Link>
+    <h1>ORZ Entertainment</h1>
+    <Link style={{color: `black`}}to="/page-2/">Go to page 2</Link>
   </Layout>
 )
 
