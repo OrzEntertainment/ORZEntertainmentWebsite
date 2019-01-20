@@ -7,6 +7,8 @@
     position: fixed;
     top: 0;
     width: 100%;
+    transition: background-color 0.5s ease;
+    height: 3em;
 }
 
 #navbar a:hover {
@@ -17,6 +19,7 @@
 /* Linked are by default purple or blue, so we need to make them white to stand out */
 a {
     color: white;
+    padding-top: 0.3em;
 }
 
 h1 {
