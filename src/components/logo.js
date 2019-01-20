@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import React from 'react';
-import logo from ".././images/orz-logo.png";
+import logo from '../res/images/orz-logo.png';
 import './css/logo.css';
 
 const Logo = ({siteTitle}) =>{
