@@ -7,6 +7,8 @@
   ORZ Entertainment's landing page
 </h1>
 
+[![Maintainability](https://api.codeclimate.com/v1/badges/36efabfcc65b67be157c/maintainability)](https://codeclimate.com/github/OrzEntertainment/ORZEntertainmentWebsite/maintainability)
+
 ## 🚀 Quick Start
 1. ##### Clone the repository
 ``` bash
