@@ -1,0 +1,24 @@
+.logo-link {
+    text-decoration: none;
+}
+
+#navbar {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+#navbar a:hover {
+    transition: color 0.3s ease;
+    color: #0db7ed
+}
+
+/* Linked are by default purple or blue, so we need to make them white to stand out */
+a {
+    color: white;
+}
+
+h1 {
+    text-align: center;
+}
